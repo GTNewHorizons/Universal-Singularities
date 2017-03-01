@@ -27,6 +27,15 @@ item.universalSingularities.general.titanium.name=Titanium Singularity
 item.universalSingularities.general.tungsten.name=Tungsten Singularity
 item.universalSingularities.general.uranium.name=Uranium Singularity
 item.universalSingularities.general.zinc.name=Zinc Singularity
+item.universalSingularities.general.palladium.name=Palladium Singularity
+item.universalSingularities.general.saltpeter.name=Saltpeter Singularity
+item.universalSingularities.general.quicksilver.name=Quicksilver Singularity
+item.universalSingularities.general.blackSteel.name=Black Steel Singularity
+item.universalSingularities.general.damascusSteel.name=Damascus Steel Singularity
+item.universalSingularities.general.phosphorus.name=Phosphorus Singularity
+item.universalSingularities.general.shadowSteel.name=Shadow Steel Singularity
+item.universalSingularities.general.sulfur.name=Sulfur Singularity
+item.universalSingularities.general.electrumFlux.name=Fluxed Electrum Singularity
 //General
 
 //Big Reactors
@@ -57,7 +66,6 @@ item.universalSingularities.enderIO.vibrantAlloy.name=Vibrant Alloy Singularity
 item.universalSingularities.extraPlanets.blueGem.name=Blue Gem Singularity
 item.universalSingularities.extraPlanets.carbon.name=Carbon Singularity
 item.universalSingularities.extraPlanets.crystal.name=Crystal Singularity
-item.universalSingularities.extraPlanets.palladium.name=Palladium Singularity
 item.universalSingularities.extraPlanets.redGem.name=Red Gem Singularity
 item.universalSingularities.extraPlanets.whiteGem.name=White Gem Singularity
 //ExtraPlanets
@@ -79,26 +87,19 @@ item.universalSingularities.mekanism.refinedObsidian.name=Refined Obsidian Singu
 //Metallurgy 4
 //Utility
 item.universalSingularities.metallurgy.bitumen.name=Bitumen Singularity
-item.universalSingularities.metallurgy.phosphorus.name=Phosphorus Singularity
 item.universalSingularities.metallurgy.potash.name=Potash Singularity
-item.universalSingularities.metallurgy.saltpeter.name=Saltpeter Singularity
-item.universalSingularities.metallurgy.sulfur.name=Sulfur Singularity
 //Alloys - Base
 item.universalSingularities.metallurgy.angmallen.name=Angmallen Singularity
-item.universalSingularities.metallurgy.damascusSteel.name=Damascus Steel Singularity
 item.universalSingularities.metallurgy.hepatizon.name=Hepatizon Singularity
 //Alloys - Ender
 item.universalSingularities.metallurgy.desichalkos.name=Desichalkos Singularity
 //Alloys - Fantasy
-item.universalSingularities.metallurgy.blackSteel.name=Black Steel Singularity
 item.universalSingularities.metallurgy.celenegil.name=Celenegil Singularity
 item.universalSingularities.metallurgy.haderoth.name=Haderoth Singularity
-item.universalSingularities.metallurgy.quicksilver.name=Quicksilver Singularity
 item.universalSingularities.metallurgy.tartarite.name=Tartarite Singularity
 //Alloys - Nether
 item.universalSingularities.metallurgy.amordrine.name=Amordrine Singularity
 item.universalSingularities.metallurgy.inolashite.name=Inolashite Singularity
-item.universalSingularities.metallurgy.shadowSteel.name=Shadow Steel Singularity
 //Metallurgy 4
 
 //PneumaticCraft
@@ -110,7 +111,6 @@ item.universalSingularities.projectRed.electrotine.name=Electrotine Singularity
 //ProjectRed
 
 //Redstone Arsenal
-item.universalSingularities.redstoneArsenal.electrumFlux.name=Fluxed Electrum Singularity
 item.universalSingularities.redstoneArsenal.crystalFlux.name=Flux Crystal Singularity
 //Redstone Arsenal
 

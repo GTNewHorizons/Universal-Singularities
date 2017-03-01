@@ -77,7 +77,8 @@ public class CommonProxy
 						new UniversalSingularityWrapper("saltpeter", "blockSaltpeter", 1821, 0xF0F0F0, 0xE1E1E1),
 						new UniversalSingularityWrapper("sulfur", "blockSulfur", 1821, 0xFFF200, 0xFCD703),
 						new UniversalSingularityWrapper("electrumFlux", "blockElectrumFlux", 100, 0xD0B64D, 0xA40606),
-						new UniversalSingularityWrapper("quicksilver", "blockQuicksilver", 1821, 0x7CD3C7, 0x2B8073)
+						new UniversalSingularityWrapper("quicksilver", "blockQuicksilver", 1821, 0x7CD3C7, 0x2B8073),
+						new UniversalSingularityWrapper("shadowSteel", "blockShadowSteel", 406, 0x887362, 0x766354, false)
 				)),
 				// Big Reactors Singularities
 				new UniversalSingularity("bigReactors", Arrays.asList(
@@ -141,8 +142,7 @@ public class CommonProxy
 						new UniversalSingularityWrapper("tartarite", "blockTartarite", 83, 0xAE3400, 0x792400, false),
 						//Alloys - Nether
 						new UniversalSingularityWrapper("amordrine", "blockAmordrine", 68, 0xA98DB1, 0x8F6B9A, false),
-						new UniversalSingularityWrapper("inolashite", "blockInolashite", 67, 0x40AA7D, 0x338864, false),
-						new UniversalSingularityWrapper("shadowSteel", "blockShadowSteel", 77, 0x887362, 0x766354, false)
+						new UniversalSingularityWrapper("inolashite", "blockInolashite", 67, 0x40AA7D, 0x338864, false)
 						/*Important Note:
 						 * The Rest of the Metallurgy Singularities (That are Non-Utility and Non-Alloy) Can be Found if AOBD Singularities is Used.
 						 * For the Other Metallurgy Singularities to be Added, Use AOBD Singularities, with Metallurgy.
