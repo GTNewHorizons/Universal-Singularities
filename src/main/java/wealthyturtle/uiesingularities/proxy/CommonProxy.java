@@ -238,20 +238,18 @@ public class CommonProxy
 		return null;
 	}
 
-	private static class CoalSingularityFuelHandler implements IFuelHandler
-	{
+	private static class CoalSingularityFuelHandler implements IFuelHandler {
 		private final UniversalSingularityItem vanillaSingularity;
 		private final int burnTime;
 
-		private CoalSingularityFuelHandler(@Nonnull final UniversalSingularityItem vanillaSingularity)
-		{
+		private CoalSingularityFuelHandler(@Nonnull final UniversalSingularityItem vanillaSingularity) {
 			this.vanillaSingularity = vanillaSingularity;
 			this.burnTime = 16000 * CompressorManager.getCost(new ItemStack(Blocks.coal_block));
 		}
 
 		@Override
-		public int getBurnTime(final ItemStack fuel)
-		{
+		public int getBurnTime(final ItemStack fuel) {
 			return fuel != null && fuel.getItem() == vanillaSingularity && fuel.getItemDamage() == 0 ? burnTime : 0;
 		}
 	}
+}
