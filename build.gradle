@@ -17,7 +17,7 @@ buildscript {
 
 apply plugin: 'forge'
 
-version = "1.7.10-8.2"
+version = "1.7.10-8.3"
 group= "wealthyturtle.uiesingularities" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "Universal Singularities"
 
