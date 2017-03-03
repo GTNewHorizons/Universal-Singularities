@@ -74,8 +74,6 @@ public class CommonProxy
 						new UniversalSingularityWrapper("palladium", "blockPalladium", 136, 0xF0F0F0, 0xE2E2E2, false),
 						new UniversalSingularityWrapper("damascusSteel", "blockDamascusSteel", 153, 0x9F9F9F, 0x888888, false),
 						new UniversalSingularityWrapper("blackSteel", "blockBlackSteel", 304, 0x909090, 0x3f3f3f, false),
-						new UniversalSingularityWrapper("saltpeter", "blockSaltpeter", 3642, 0xF0F0F0, 0xE1E1E1, false),
-						new UniversalSingularityWrapper("sulfur", "blockSulfur", 7283, 0xFFF200, 0xFCD703, false),
 						new UniversalSingularityWrapper("electrumFlux", "blockElectrumFlux", 16, 0xD0B64D, 0xA40606, false),
 						new UniversalSingularityWrapper("quicksilver", "blockQuicksilver", 1821, 0x7CD3C7, 0x2B8073, false),
 						new UniversalSingularityWrapper("shadowSteel", "blockShadowSteel", 406, 0x887362, 0x766354, false),
