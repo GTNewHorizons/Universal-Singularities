@@ -82,7 +82,9 @@ public class CommonProxy
 						new UniversalSingularityWrapper("iridium", "blockIridium", 62, 0xffffff, 0x6a6a6a, false),
 						new UniversalSingularityWrapper("netherstar", "blockNetherStar", 75, 0xffffff, 0x8884bc, false),
 						new UniversalSingularityWrapper("platinum", "blockPlatinum", 406, 0xf6f3e7, 0xbcbc93, false),
-						new UniversalSingularityWrapper("quantum", "blockQuantum", 62, 0x6d6dda, 0x30305f, false)
+						new UniversalSingularityWrapper("naquadria", "blockNaquadria", 66, 0xffffff, 0x000000, false),
+						new UniversalSingularityWrapper("plutonium", "blockPlutonium", 244, 0xcb2a2a, 0x6d100d, false),
+						new UniversalSingularityWrapper("blackPlutonium", "blockBlackPlutoniumm", 244, 0x272727, 0x000000, false)
 				)),
 				// Big Reactors Singularities
 				new UniversalSingularity("bigReactors", Arrays.asList(
@@ -122,8 +124,9 @@ public class CommonProxy
 						new UniversalSingularityWrapper("pokefennium", "blockPokefennium", 71, 0x436B73, 0x485361, false)
 				)),
 				// Extra Utilities Singularities
-				new UniversalSingularity("extraUtilities", Collections.singletonList(
-						new UniversalSingularityWrapper("unstable", "blockUnstable", 66, 0xC5C5C5, 0xB1B1B1, false)
+				new UniversalSingularity("extraUtilities", Arrays.asList(
+						new UniversalSingularityWrapper("unstable", "blockUnstable", 66, 0xC5C5C5, 0xB1B1B1, false),
+						new UniversalSingularityWrapper("bedrockium", "massiveBlockBedrockium", 35, 0x000000, 0x000000, false)
 				)),
 				// Mekanism Singularities
 				new UniversalSingularity("mekanism", Arrays.asList(
