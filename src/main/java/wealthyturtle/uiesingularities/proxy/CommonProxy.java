@@ -48,61 +48,66 @@ public class CommonProxy
 		final List<UniversalSingularity> universalSingularities = Arrays.asList(
 				// Vanilla Singularities
 				new UniversalSingularity("vanilla", Arrays.asList(
-						new UniversalSingularityWrapper("coal", "blockCoal", 3642, 0x282828, 0x0C0C0C),
-						new UniversalSingularityWrapper("emerald", "blockEmerald", 729, 0x60DB83, 0x2CA746),
-						new UniversalSingularityWrapper("diamond", "blockDiamond", 729, 0x4AEDD1, 0x30DBBD)
+						new UniversalSingularityWrapper("coal", "blockCoal", 3642, 0x282828, 0x0C0C0C, false),
+						new UniversalSingularityWrapper("emerald", "blockEmerald", 729, 0x60DB83, 0x2CA746, false),
+						new UniversalSingularityWrapper("diamond", "blockDiamond", 729, 0x4AEDD1, 0x30DBBD, false)
 				)),
 				// General (Not Mod Specific)
 				new UniversalSingularity("general", Arrays.asList(
-						new UniversalSingularityWrapper("aluminum", "blockAluminum", 1821, 0xEDEDED, 0xC5C5C5),
-						new UniversalSingularityWrapper("brass", "blockBrass", 1821, 0xD89634, 0x8B5F1B),
-						new UniversalSingularityWrapper("bronze", "blockBronze", 1821, 0xCA904E, 0xC97A25),
-						new UniversalSingularityWrapper("charcoal", "blockCharcoal", 7283, 0x605543, 0x100E0B),
-						new UniversalSingularityWrapper("electrum", "blockElectrum", 911, 0xFDEF5A, 0xEFE252),
-						new UniversalSingularityWrapper("invar", "blockInvar", 1821, 0xD0D7CE, 0xACB4B1),
+						new UniversalSingularityWrapper("aluminum", "blockAluminum", 1821, 0xEDEDED, 0xC5C5C5, false),
+						new UniversalSingularityWrapper("brass", "blockBrass", 1821, 0xD89634, 0x8B5F1B, false),
+						new UniversalSingularityWrapper("bronze", "blockBronze", 1821, 0xCA904E, 0xC97A25, false),
+						new UniversalSingularityWrapper("charcoal", "blockCharcoal", 7283, 0x605543, 0x100E0B, false),
+						new UniversalSingularityWrapper("electrum", "blockElectrum", 911, 0xFDEF5A, 0xEFE252, false),
+						new UniversalSingularityWrapper("invar", "blockInvar", 1821, 0xD0D7CE, 0xACB4B1, false),
 						new UniversalSingularityWrapper("magnesium", "blockMagnesium", 3642, 0x937C6C, 0x776457),
-						new UniversalSingularityWrapper("osmium", "blockOsmium", 406, 0xAABACE, 0x9BABC4),
-						new UniversalSingularityWrapper("peridot", "blockPeridot", 608, 0x58A52B, 0x4E9226),
-						new UniversalSingularityWrapper("ruby", "blockRuby", 608, 0xB44848, 0x993D3D),
-						new UniversalSingularityWrapper("sapphire", "blockSapphire", 608, 0x5173D1, 0x466ACE),
-						new UniversalSingularityWrapper("steel", "blockSteel", 911, 0x9F9F9F, 0x888888),
-						new UniversalSingularityWrapper("titanium", "blockTitanium", 2024, 0x1C242E, 0x192029),
-						new UniversalSingularityWrapper("tungsten", "blockTungsten", 244, 0xD6D6D6, 0xCACACA),
-						new UniversalSingularityWrapper("uranium", "blockUranium", 507, 0x00CB40, 0x00C43E),
-						new UniversalSingularityWrapper("zinc", "blockZinc", 3642, 0xBFC55C, 0x939836),
-						new UniversalSingularityWrapper("phosphorus", "blockPhosphorus", 365, 0xA27777, 0x8B5F5F),
-						new UniversalSingularityWrapper("palladium", "blockPalladium", 456, 0xF0F0F0, 0xE2E2E2),
-						new UniversalSingularityWrapper("damascusSteel", "blockDamascusSteel", 729, 0x996D4D, 0x583F2C),
-						new UniversalSingularityWrapper("blackSteel", "blockBlackSteel", 729, 0x395679, 0x314966),
-						new UniversalSingularityWrapper("saltpeter", "blockSaltpeter", 1821, 0xF0F0F0, 0xE1E1E1),
-						new UniversalSingularityWrapper("sulfur", "blockSulfur", 1821, 0xFFF200, 0xFCD703),
-						new UniversalSingularityWrapper("electrumFlux", "blockElectrumFlux", 100, 0xD0B64D, 0xA40606),
-						new UniversalSingularityWrapper("quicksilver", "blockQuicksilver", 1821, 0x7CD3C7, 0x2B8073),
-						new UniversalSingularityWrapper("shadowSteel", "blockShadowSteel", 406, 0x887362, 0x766354, false)
+						new UniversalSingularityWrapper("osmium", "blockOsmium", 406, 0xAABACE, 0x9BABC4, false),
+						new UniversalSingularityWrapper("peridot", "blockPeridot", 608, 0x58A52B, 0x4E9226, false),
+						new UniversalSingularityWrapper("ruby", "blockRuby", 608, 0xB44848, 0x993D3D, false),
+						new UniversalSingularityWrapper("sapphire", "blockSapphire", 608, 0x5173D1, 0x466ACE, false),
+						new UniversalSingularityWrapper("steel", "blockSteel", 911, 0x9F9F9F, 0x888888, false),
+						new UniversalSingularityWrapper("titanium", "blockTitanium", 2024, 0x1C242E, 0x192029, false),
+						new UniversalSingularityWrapper("tungsten", "blockTungsten", 244, 0xD6D6D6, 0xCACACA, false),
+						new UniversalSingularityWrapper("uranium", "blockUranium", 507, 0x00CB40, 0x00C43E, false),
+						new UniversalSingularityWrapper("zinc", "blockZinc", 3642, 0xBFC55C, 0x939836, false),
+						new UniversalSingularityWrapper("phosphorus", "blockPhosphorus", 365, 0xA27777, 0x8B5F5F, false),
+						new UniversalSingularityWrapper("palladium", "blockPalladium", 136, 0xF0F0F0, 0xE2E2E2, false),
+						new UniversalSingularityWrapper("damascusSteel", "blockDamascusSteel", 153, 0x996D4D, 0x583F2C, false),
+						new UniversalSingularityWrapper("blackSteel", "blockBlackSteel", 304, 0x395679, 0x314966, false),
+						new UniversalSingularityWrapper("blackSteel", "blockBlackSteel", 304, 0x395679, 0x314966, false),
+						new UniversalSingularityWrapper("saltpeter", "blockSaltpeter", 3642, 0xF0F0F0, 0xE1E1E1, false),
+						new UniversalSingularityWrapper("sulfur", "blockSulfur", 7283, 0xFFF200, 0xFCD703, false),
+						new UniversalSingularityWrapper("electrumFlux", "blockElectrumFlux", 16, 0xD0B64D, 0xA40606, false),
+						new UniversalSingularityWrapper("quicksilver", "blockQuicksilver", 1821, 0x7CD3C7, 0x2B8073, false),
+						new UniversalSingularityWrapper("shadowSteel", "blockShadowSteel", 406, 0x887362, 0x766354, false),
+						new UniversalSingularityWrapper("iridium", "blockIridium", 62, 0x000000, 0x000000, false),
+						new UniversalSingularityWrapper("netherstar", "blockNetherStar", 75, 0x000000, 0x000000, false),
+						new UniversalSingularityWrapper("platinum", "blockPlatinum", 406, 0x000000, 0x000000, false),
+						new UniversalSingularityWrapper("quantum", "blockQuantum", 62, 0x000000, 0x000000, false)
 				)),
 				// Big Reactors Singularities
 				new UniversalSingularity("bigReactors", Arrays.asList(
-						new UniversalSingularityWrapper("blutonium", "blockBlutonium", 9999, 0x4642D6, 0x1B00E6),
-						new UniversalSingularityWrapper("cyanite", "blockCyanite", 9999, 0x5CAFDB, 0x0087EF),
-						new UniversalSingularityWrapper("graphite", "blockGraphite", 9999, 0x5D5D5D, 0x444444),
-						new UniversalSingularityWrapper("ludicrite", "blockLudicrite", 9999, 0xF001E8, 0xF103B1),
-						new UniversalSingularityWrapper("yellorium", "blockYellorium", 9999, 0xD9DB5C, 0xEBFF3D)
+						new UniversalSingularityWrapper("blutonium", "blockBlutonium", 9999, 0x4642D6, 0x1B00E6, false),
+						new UniversalSingularityWrapper("cyanite", "blockCyanite", 9999, 0x5CAFDB, 0x0087EF, false),
+						new UniversalSingularityWrapper("graphite", "blockGraphite", 9999, 0x5D5D5D, 0x444444, false),
+						new UniversalSingularityWrapper("ludicrite", "blockLudicrite", 9999, 0xF001E8, 0xF103B1, false),
+						new UniversalSingularityWrapper("yellorium", "blockYellorium", 9999, 0xD9DB5C, 0xEBFF3D, false)
 				)),
 				// Draconic Evolution Singularities
 				new UniversalSingularity("draconicEvolution", Arrays.asList(
-						new UniversalSingularityWrapper("draconium", "blockDraconium", 226, 0x8E5CC0, 0x7C4AAE),
+						new UniversalSingularityWrapper("draconium", "blockDraconium", 226, 0x8E5CC0, 0x7C4AAE, false),
 						new UniversalSingularityWrapper("draconiumAwakened", "blockDraconiumAwakened", 1, 0xFF7200, 0xFF6600, false)
 				)),
 				// Ender IO Singularities
 				new UniversalSingularity("enderIO", Arrays.asList(
-						new UniversalSingularityWrapper("conductiveIron", "blockConductiveIron", 911, 0xCA9D9D, 0xC39499),
-						new UniversalSingularityWrapper("electricalSteel", "blockElectricalSteel", 911, 0x949494, 0x8D8D8D),
-						new UniversalSingularityWrapper("energeticAlloy", "blockEnergeticAlloy", 191, 0xFFA638, 0xFF9C21),
-						new UniversalSingularityWrapper("darkSteel", "blockDarkSteel", 911, 0x3C3C3C, 0x383838),
-						new UniversalSingularityWrapper("pulsatingIron", "blockPulsatingIron", 911, 0x82FA9E, 0x69EA88),
-						new UniversalSingularityWrapper("redstoneAlloy", "blockRedstoneAlloy", 911, 0xF25757, 0xD63C3C),
-						new UniversalSingularityWrapper("soularium", "blockSoularium", 456, 0x5C4527, 0x5A3E25),
-						new UniversalSingularityWrapper("vibrantAlloy", "blockVibrantAlloy", 145, 0xA7CA52, 0x98BB40)
+						new UniversalSingularityWrapper("conductiveIron", "blockConductiveIron", 911, 0xCA9D9D, 0xC39499, false),
+						new UniversalSingularityWrapper("electricalSteel", "blockElectricalSteel", 911, 0x949494, 0x8D8D8D, false),
+						new UniversalSingularityWrapper("energeticAlloy", "blockEnergeticAlloy", 191, 0xFFA638, 0xFF9C21, false),
+						new UniversalSingularityWrapper("darkSteel", "blockDarkSteel", 911, 0x3C3C3C, 0x383838, false),
+						new UniversalSingularityWrapper("pulsatingIron", "blockPulsatingIron", 911, 0x82FA9E, 0x69EA88, false),
+						new UniversalSingularityWrapper("redstoneAlloy", "blockRedstoneAlloy", 911, 0xF25757, 0xD63C3C, false),
+						new UniversalSingularityWrapper("soularium", "blockSoularium", 456, 0x5C4527, 0x5A3E25, false),
+						new UniversalSingularityWrapper("vibrantAlloy", "blockVibrantAlloy", 145, 0xA7CA52, 0x98BB40, false)
 				)),
 				// ExtraPlanets Singularities
 				new UniversalSingularity("extraPlanets", Arrays.asList(
@@ -114,23 +119,23 @@ public class CommonProxy
 				)),
 				// ExtraTiC Singularities
 				new UniversalSingularity("extraTiC", Arrays.asList(
-						new UniversalSingularityWrapper("fairy", "blockFairy", 90, 0xFF83C3, 0xFF65B4),
-						new UniversalSingularityWrapper("pokefennium", "blockPokefennium", 71, 0x436B73, 0x485361)
+						new UniversalSingularityWrapper("fairy", "blockFairy", 90, 0xFF83C3, 0xFF65B4, false),
+						new UniversalSingularityWrapper("pokefennium", "blockPokefennium", 71, 0x436B73, 0x485361, false)
 				)),
 				// Extra Utilities Singularities
 				new UniversalSingularity("extraUtilities", Collections.singletonList(
-						new UniversalSingularityWrapper("unstable", "blockUnstable", 66, 0xC5C5C5, 0xB1B1B1)
+						new UniversalSingularityWrapper("unstable", "blockUnstable", 66, 0xC5C5C5, 0xB1B1B1, false)
 				)),
 				// Mekanism Singularities
 				new UniversalSingularity("mekanism", Arrays.asList(
-						new UniversalSingularityWrapper("refinedGlowstone", "blockRefinedGlowstone", 67, 0xF4D036, 0xDBA622),
-						new UniversalSingularityWrapper("refinedObsidian", "blockRefinedObsidian", 82, 0x57456F, 0x53426A)
+						new UniversalSingularityWrapper("refinedGlowstone", "blockRefinedGlowstone", 67, 0xF4D036, 0xDBA622, false),
+						new UniversalSingularityWrapper("refinedObsidian", "blockRefinedObsidian", 82, 0x57456F, 0x53426A, false)
 				)),
 				// Metallurgy Singularities
 				new UniversalSingularity("metallurgy", Arrays.asList(
 						//Utility
-						new UniversalSingularityWrapper("bitumen", "blockBitumen", 93, 0x242424, 0x313131),
-						new UniversalSingularityWrapper("potash", "blockPotash", 85, 0xEF9103, 0xDA8403),
+						new UniversalSingularityWrapper("bitumen", "blockBitumen", 93, 0x242424, 0x313131, false),
+						new UniversalSingularityWrapper("potash", "blockPotash", 85, 0xEF9103, 0xDA8403, false),
 						//Alloys - Base
 						new UniversalSingularityWrapper("angmallen", "blockAngmallen", 65, 0xE1D78A, 0xD6C761, false),
 						new UniversalSingularityWrapper("hepatizon", "blockHepatizon", 82, 0x755E75, 0x614E61, false),
@@ -155,21 +160,21 @@ public class CommonProxy
 				)),
 				// ProjectRed Singularities
 				new UniversalSingularity("projectRed", Collections.singletonList(
-						new UniversalSingularityWrapper("electrotine", "blockElectrotine", 1215, 0x0F4985, 0x0D3F72)
+						new UniversalSingularityWrapper("electrotine", "blockElectrotine", 1215, 0x0F4985, 0x0D3F72, false)
 				)),
 				// Redstone Arsenal Singularities
 				new UniversalSingularity("redstoneArsenal", Arrays.asList(
-						new UniversalSingularityWrapper("crystalFlux", "blockCrystalFlux", 76, 0xFE333A, 0xE8111A)
+						new UniversalSingularityWrapper("crystalFlux", "blockCrystalFlux", 76, 0xFE333A, 0xE8111A, false)
 				)),
 				// Tinkers' Construct Singularities
 				new UniversalSingularity("tinkersConstruct", Arrays.asList(
-						new UniversalSingularityWrapper("aluminumBrass", "blockAluminumBrass", 1821, 0xE2BE4E, 0xD4B148),
-						new UniversalSingularityWrapper("alumite", "blockAlumite", 229, 0xE9ADDA, 0xE298D1),
-						new UniversalSingularityWrapper("ardite", "blockArdite", 304, 0xD24900, 0x960000),
-						new UniversalSingularityWrapper("cobalt", "blockCobalt", 1821, 0x2376DD, 0x023C9B),
-						new UniversalSingularityWrapper("ender", "blockEnder", 608, 0x00B293, 0x00927C),
-						new UniversalSingularityWrapper("glue", "blockGlue", 911, 0xDBD0D0, 0xCEBFBF),
-						new UniversalSingularityWrapper("manyullyn", "blockManyullyn", 380, 0xA97DE0, 0x926AC3)
+						new UniversalSingularityWrapper("aluminumBrass", "blockAluminumBrass", 1821, 0xE2BE4E, 0xD4B148, false),
+						new UniversalSingularityWrapper("alumite", "blockAlumite", 229, 0xE9ADDA, 0xE298D1, false),
+						new UniversalSingularityWrapper("ardite", "blockArdite", 304, 0xD24900, 0x960000, false),
+						new UniversalSingularityWrapper("cobalt", "blockCobalt", 1821, 0x2376DD, 0x023C9B, false),
+						new UniversalSingularityWrapper("ender", "blockEnder", 608, 0x00B293, 0x00927C, false),
+						new UniversalSingularityWrapper("glue", "blockGlue", 911, 0xDBD0D0, 0xCEBFBF, false),
+						new UniversalSingularityWrapper("manyullyn", "blockManyullyn", 380, 0xA97DE0, 0x926AC3, false)
 				))
 				/*Removed
 				 * new UniversalSingularityWrapper("salt", "blockSalt", 87, 0xEFEFEF, 0xDDE7E8),

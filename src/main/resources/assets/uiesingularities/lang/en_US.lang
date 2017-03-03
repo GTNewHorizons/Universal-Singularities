@@ -35,7 +35,11 @@ item.universalSingularities.general.damascusSteel.name=Damascus Steel Singularit
 item.universalSingularities.general.phosphorus.name=Phosphorus Singularity
 item.universalSingularities.general.shadowSteel.name=Shadow Steel Singularity
 item.universalSingularities.general.sulfur.name=Sulfur Singularity
+item.universalSingularities.general.iridium.name=Iridium Singularity
+item.universalSingularities.general.netherstar.name=Nether Star Singularity
+item.universalSingularities.general.platinum.name=Platinum Singularity
 item.universalSingularities.general.electrumFlux.name=Fluxed Electrum Singularity
+item.universalSingularities.general.quantum.name=Quantumm Singularity
 //General
 
 //Big Reactors
