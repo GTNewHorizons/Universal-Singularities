@@ -74,16 +74,15 @@ public class CommonProxy
 						new UniversalSingularityWrapper("palladium", "blockPalladium", 136, 0xF0F0F0, 0xE2E2E2, false),
 						new UniversalSingularityWrapper("damascusSteel", "blockDamascusSteel", 153, 0x996D4D, 0x583F2C, false),
 						new UniversalSingularityWrapper("blackSteel", "blockBlackSteel", 304, 0x395679, 0x314966, false),
-						new UniversalSingularityWrapper("blackSteel", "blockBlackSteel", 304, 0x395679, 0x314966, false),
 						new UniversalSingularityWrapper("saltpeter", "blockSaltpeter", 3642, 0xF0F0F0, 0xE1E1E1, false),
 						new UniversalSingularityWrapper("sulfur", "blockSulfur", 7283, 0xFFF200, 0xFCD703, false),
 						new UniversalSingularityWrapper("electrumFlux", "blockElectrumFlux", 16, 0xD0B64D, 0xA40606, false),
 						new UniversalSingularityWrapper("quicksilver", "blockQuicksilver", 1821, 0x7CD3C7, 0x2B8073, false),
 						new UniversalSingularityWrapper("shadowSteel", "blockShadowSteel", 406, 0x887362, 0x766354, false),
-						new UniversalSingularityWrapper("iridium", "blockIridium", 62, 0x000000, 0x000000, false),
-						new UniversalSingularityWrapper("netherstar", "blockNetherStar", 75, 0x000000, 0x000000, false),
-						new UniversalSingularityWrapper("platinum", "blockPlatinum", 406, 0x000000, 0x000000, false),
-						new UniversalSingularityWrapper("quantum", "blockQuantum", 62, 0x000000, 0x000000, false)
+						new UniversalSingularityWrapper("iridium", "blockIridium", 62, 0xffffff, 0x6a6a6a, false),
+						new UniversalSingularityWrapper("netherstar", "blockNetherStar", 75, 0xffffff, 0x8884bc, false),
+						new UniversalSingularityWrapper("platinum", "blockPlatinum", 406, 0xf6f3e7, 0xbcbc93, false),
+						new UniversalSingularityWrapper("quantum", "blockQuantum", 62, 0x6d6dda, 0x30305f, false)
 				)),
 				// Big Reactors Singularities
 				new UniversalSingularity("bigReactors", Arrays.asList(
