@@ -84,8 +84,9 @@ public class CommonProxy
 						new UniversalSingularityWrapper("platinum", "blockPlatinum", 406, 0xf6f3e7, 0xbcbc93, false),
 						new UniversalSingularityWrapper("naquadria", "blockNaquadria", 66, 0xffffff, 0x000000, false),
 						new UniversalSingularityWrapper("plutonium", "blockPlutonium", 244, 0xcb2a2a, 0x6d100d, false),
-						new UniversalSingularityWrapper("blackPlutonium", "blockBlackPlutonium", 244, 0x272727, 0x000000, false),
-						new UniversalSingularityWrapper("desh", "blockDesh", 203, 0x383838, 0x000000, false)
+						new UniversalSingularityWrapper("meteoricIron", "blockMeteoricIron", 911, 0x272727, 0x000000, false),
+						new UniversalSingularityWrapper("desh", "blockDesh", 203, 0x383838, 0x000000, false),
+						new UniversalSingularityWrapper("europium", "blockEuropium", 62, 0x3dadada, 0x555555, false)
 				)),
 				// Big Reactors Singularities
 				new UniversalSingularity("bigReactors", Arrays.asList(
