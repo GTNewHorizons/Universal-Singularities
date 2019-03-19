@@ -70,7 +70,7 @@ public class CommonProxy
 						new UniversalSingularityWrapper("tungsten", "blockTungsten", 244, 0x8b8b8b, 0x161616, false),
 						new UniversalSingularityWrapper("uranium", "blockUranium", 507, 0x00CB40, 0x00C43E, false),
 						new UniversalSingularityWrapper("zinc", "blockZinc", 3642, 0xdbd4d4, 0x636161, false),
-						new UniversalSingularityWrapper("phosphorus", "blockPhosphorus", 365, 0xfaef01, 0x696501, false),
+						new UniversalSingularityWrapper("tricalciumphosphate", "blockTricalciumPhosphate", 365, 0xfaef01, 0x696501, false),
 						new UniversalSingularityWrapper("palladium", "blockPalladium", 136, 0xF0F0F0, 0xE2E2E2, false),
 						new UniversalSingularityWrapper("damascusSteel", "blockDamascusSteel", 153, 0x9F9F9F, 0x888888, false),
 						new UniversalSingularityWrapper("blackSteel", "blockBlackSteel", 304, 0x909090, 0x3f3f3f, false),
