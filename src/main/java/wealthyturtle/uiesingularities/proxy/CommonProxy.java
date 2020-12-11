@@ -173,7 +173,7 @@ public class CommonProxy
 						new UniversalSingularityWrapper("alumite", "blockAlumite", 229, 0xE9ADDA, 0xE298D1, false),
 						new UniversalSingularityWrapper("ardite", "blockArdite", 304, 0xD24900, 0x960000, false),
 						new UniversalSingularityWrapper("cobalt", "blockCobalt", 1824, 0x2376DD, 0x023C9B, false),
-						new UniversalSingularityWrapper("ender", "blockEnder", 608, 0x00B293, 0x00927C, false),
+						new UniversalSingularityWrapper("ender", "blockEnderPearl", 608, 0x00B293, 0x00927C, false),//Not TC, but moving changes the meta #s
 						new UniversalSingularityWrapper("glue", "blockGlue", 912, 0xDBD0D0, 0xCEBFBF, false),
 						new UniversalSingularityWrapper("manyullyn", "blockManyullyn", 380, 0xA97DE0, 0x926AC3, false)
 				))
