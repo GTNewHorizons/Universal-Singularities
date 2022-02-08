@@ -1,9 +1,8 @@
 # Universal Singularities
-The Official Github Repository of the Mod, <a href="https://minecraft.curseforge.com/projects/universal-singularities">Universal Singularities</a>!
+The Unofficial Github Repository of the Mod (Universal Singularities](https://minecraft.curseforge.com/projects/universal-singularities) (GTNH Fork)!
 
-Made and Maintained By:
-<a href="https://github.com/Wealthyturtle">Wealthyturtle</a> and <a href="https://github.com/Wanioncane">WanionCane</a>
+Originally made by [Wealthyturtle](https://github.com/Wealthyturtle) and [WanionCane](https://github.com/Wanioncane)
 
 # Fork
 
-This mod was forked by the GT:NH Team to continue the development of the 1.7.10 Branch. The up-to-date Master branch can be found on our [Jenkins](http://jenkins.usrv.eu:8080/job/Universal-Singularities/).
+This mod was forked by the GTNH Team to continue the development of the 1.7.10 Branch. The up-to-date Master branch can be found on our [Jenkins](http://jenkins.usrv.eu:8080/job/Universal-Singularities/).
