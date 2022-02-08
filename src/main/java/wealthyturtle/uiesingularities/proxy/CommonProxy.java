@@ -78,7 +78,7 @@ public class CommonProxy
 						new UniversalSingularityWrapper("quicksilver", "blockQuicksilver", 1824, 0x7CD3C7, 0x2B8073, false),
 						new UniversalSingularityWrapper("shadowSteel", "blockShadowSteel", 406, 0x887362, 0x766354, false),
 						new UniversalSingularityWrapper("iridium", "blockIridium", 62, 0xffffff, 0x6a6a6a, false),
-						new UniversalSingularityWrapper("netherstar", "blockNetherStar", 75, 0xffffff, 0x8884bc, false),
+						new UniversalSingularityWrapper("netherstar", "blockNetherStar", 512, 0xffffff, 0x8884bc, false),
 						new UniversalSingularityWrapper("platinum", "blockPlatinum", 406, 0xf6f3e7, 0xbcbc93, false),
 						new UniversalSingularityWrapper("naquadria", "blockNaquadria", 66, 0xffffff, 0x000000, false),
 						new UniversalSingularityWrapper("plutonium", "blockPlutonium", 244, 0xcb2a2a, 0x6d100d, false),
@@ -96,8 +96,8 @@ public class CommonProxy
 				)),
 				// Draconic Evolution Singularities
 				new UniversalSingularity("draconicEvolution", Arrays.asList(
-						new UniversalSingularityWrapper("draconium", "blockDraconium", 226, 0x8E5CC0, 0x7C4AAE, false),
-						new UniversalSingularityWrapper("draconiumAwakened", "blockDraconiumAwakened", 1, 0xFF7200, 0xFF6600, false)
+						new UniversalSingularityWrapper("draconium", "blockDraconium", 1296, 0x8E5CC0, 0x7C4AAE, false),
+						new UniversalSingularityWrapper("draconiumAwakened", "blockDraconiumAwakened", 760, 0xFF7200, 0xFF6600, false)
 				)),
 				// Ender IO Singularities
 				new UniversalSingularity("enderIO", Arrays.asList(
