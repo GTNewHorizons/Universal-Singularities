@@ -1,6 +1,11 @@
 package wealthyturtle.uiesingularities;
 
-import static wealthyturtle.uiesingularities.Reference.*;
+import static wealthyturtle.uiesingularities.Reference.CLIENT_PROXY;
+import static wealthyturtle.uiesingularities.Reference.COMMON_PROXY;
+import static wealthyturtle.uiesingularities.Reference.MC_VERSION;
+import static wealthyturtle.uiesingularities.Reference.MOD_ID;
+import static wealthyturtle.uiesingularities.Reference.MOD_NAME;
+import static wealthyturtle.uiesingularities.Reference.MOD_VERSION;
 
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
