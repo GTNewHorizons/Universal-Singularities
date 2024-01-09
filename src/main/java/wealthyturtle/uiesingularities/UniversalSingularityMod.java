@@ -2,12 +2,12 @@ package wealthyturtle.uiesingularities;
 
 import static wealthyturtle.uiesingularities.Reference.*;
 
-import wealthyturtle.uiesingularities.proxy.CommonProxy;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import wealthyturtle.uiesingularities.proxy.CommonProxy;
 
 @SuppressWarnings("unused")
 @Mod(

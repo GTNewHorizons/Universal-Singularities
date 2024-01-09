@@ -13,15 +13,15 @@ import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.oredict.OreDictionary;
 
-import wealthyturtle.uiesingularities.NEI;
-import wealthyturtle.uiesingularities.UniversalSingularity;
-import wealthyturtle.uiesingularities.UniversalSingularityItem;
-import wealthyturtle.uiesingularities.UniversalSingularityWrapper;
 import cpw.mods.fml.common.IFuelHandler;
 import cpw.mods.fml.common.Loader;
 import cpw.mods.fml.common.registry.GameRegistry;
 import fox.spiteful.avaritia.crafting.CompressorManager;
 import fox.spiteful.avaritia.crafting.Grinder;
+import wealthyturtle.uiesingularities.NEI;
+import wealthyturtle.uiesingularities.UniversalSingularity;
+import wealthyturtle.uiesingularities.UniversalSingularityItem;
+import wealthyturtle.uiesingularities.UniversalSingularityWrapper;
 
 public class CommonProxy {
 
