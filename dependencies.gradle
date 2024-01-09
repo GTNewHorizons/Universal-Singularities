@@ -1,6 +1,6 @@
 // Add your dependencies here
 
 dependencies {
-    compile 'com.github.GTNewHorizons:Avaritia:1.37:dev'
-    compileOnly 'com.github.GTNewHorizons:NotEnoughItems:2.3.43-GTNH:dev'
+    api 'com.github.GTNewHorizons:Avaritia:1.48:dev'
+    compileOnly 'com.github.GTNewHorizons:NotEnoughItems:2.5.4-GTNH:dev'
 }

@@ -4,7 +4,14 @@ import static fox.spiteful.avaritia.Config.craftingOnly;
 import static java.io.File.separatorChar;
 
 import java.io.File;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 import javax.annotation.Nonnull;
 
@@ -13,15 +20,15 @@ import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.oredict.OreDictionary;
 
-import wealthyturtle.uiesingularities.NEI;
-import wealthyturtle.uiesingularities.UniversalSingularity;
-import wealthyturtle.uiesingularities.UniversalSingularityItem;
-import wealthyturtle.uiesingularities.UniversalSingularityWrapper;
 import cpw.mods.fml.common.IFuelHandler;
 import cpw.mods.fml.common.Loader;
 import cpw.mods.fml.common.registry.GameRegistry;
 import fox.spiteful.avaritia.crafting.CompressorManager;
 import fox.spiteful.avaritia.crafting.Grinder;
+import wealthyturtle.uiesingularities.NEI;
+import wealthyturtle.uiesingularities.UniversalSingularity;
+import wealthyturtle.uiesingularities.UniversalSingularityItem;
+import wealthyturtle.uiesingularities.UniversalSingularityWrapper;
 
 public class CommonProxy {
 
