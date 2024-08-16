@@ -250,7 +250,15 @@ public class CommonProxy {
                                         62,
                                         0x3dadada,
                                         0x555555,
+                                        false),
+                                new UniversalSingularityWrapper(
+                                        "gangue",
+                                        "blockGangue",
+                                        444444,
+                                        0x383838,
+                                        0x5A3E25,
                                         false))),
+
                 // Big Reactors Singularities
                 new UniversalSingularity(
                         "bigReactors",
