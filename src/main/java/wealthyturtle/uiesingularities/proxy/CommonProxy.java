@@ -257,6 +257,13 @@ public class CommonProxy {
                                         444444,
                                         0x383838,
                                         0x5A3E25,
+                                        false),
+                                new UniversalSingularityWrapper(
+                                        "roseGold",
+                                        "blockRoseGold",
+                                        1824,
+                                        0xFFE61E,
+                                        0xDEC921,
                                         false))),
 
                 // Big Reactors Singularities
