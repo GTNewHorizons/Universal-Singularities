@@ -610,12 +610,23 @@ public class CommonProxy {
                                         380,
                                         0xA97DE0,
                                         0x926AC3,
-                                        false)))
+                                        false))),
+
+                new UniversalSingularity(
+                        "rubber",
+                        Collections.singletonList(
+                                new UniversalSingularityWrapper(
+                                        "rubber",
+                                        "blockUnstable",
+                                        66,
+                                        0x646464,
+                                        0x464646,
+                                        false))));
+
         /*
          * Removed new UniversalSingularityWrapper("salt", "blockSalt", 87, 0xEFEFEF, 0xDDE7E8), new
          * UniversalSingularityWrapper("red_aurum", "blockRed_aurum", 78, 0xFF4809, 0xFF3D09)
          */
-        );
         final Configuration config = new Configuration(
                 new File("." + separatorChar + "config" + separatorChar + "UniversalSingularities.cfg"));
         hideDisabledSingularities = config.get(Configuration.CATEGORY_GENERAL, "hideDisabledSingularitiesInNei", true)
