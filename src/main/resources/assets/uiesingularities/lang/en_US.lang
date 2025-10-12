@@ -136,6 +136,10 @@ item.universalSingularities.tinkersConstruct.manyullyn.name=Manyullyn Singularit
 //item.universalSingularities.tinkersConstruct.pigIron.name=Pig Iron Singularity
 //Tinkers' Construct
 
+//Rubber
+item.universalSingularities.rubber.rubber.name=Rubber Singularity
+
+
 /*Removed
  * item.universalSingularities.general.salt.name=Salt Singularity
  * item.universalSingularities.extraTiC.red_aurum.name=RedAurum Singularity
