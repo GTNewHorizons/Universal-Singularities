@@ -612,7 +612,7 @@ public class CommonProxy {
                                         0x926AC3,
                                         false))),
 
-                // Tinkers' Construct Singularities
+                // Rubber Singularities
                 new UniversalSingularity(
                         "rubber",
                         Arrays.asList(
