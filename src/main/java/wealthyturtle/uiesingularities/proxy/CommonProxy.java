@@ -614,6 +614,10 @@ public class CommonProxy {
                 new UniversalSingularity(
                         "rubber",
                         Arrays.asList(
+
+                new UniversalSingularity(
+                        "rubber",
+                        Collections.singletonList(
                                 new UniversalSingularityWrapper(
                                         "rubber",
                                         "blockUnstable",
@@ -648,6 +652,8 @@ public class CommonProxy {
                                         66,
                                         0XD7E6E6,
                                         0XD7E6E6,
+                                        0x646464,
+                                        0x464646,
                                         false))));
 
         /*

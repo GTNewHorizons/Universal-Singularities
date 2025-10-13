@@ -54,6 +54,8 @@ item.universalSingularities.rubber.styrenebutadiene.name=Styrene-Butadiene Rubbe
 item.universalSingularities.rubber.silicone.name=Silicone Rubber Singularity
 item.universalSingularities.rubber.polyphenylenesulfide.name=Polyphenylene Sulfide Singularity
 item.universalSingularities.rubber.polyvinylchloride.name=Polyvinyl Chloride Singularity
+item.universalSingularities.rubber.rubber.name=Rubber Singularity
+//General
 
 //Big Reactors
 item.universalSingularities.bigReactors.blutonium.name=Blutonium Singularity
