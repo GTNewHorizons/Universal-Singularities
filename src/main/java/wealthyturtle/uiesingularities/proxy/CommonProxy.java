@@ -611,7 +611,6 @@ public class CommonProxy {
                                         0xA97DE0,
                                         0x926AC3,
                                         false))),
-
                 new UniversalSingularity(
                         "rubber",
                         Arrays.asList(
