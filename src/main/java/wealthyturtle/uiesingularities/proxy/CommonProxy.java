@@ -611,16 +611,43 @@ public class CommonProxy {
                                         0xA97DE0,
                                         0x926AC3,
                                         false))),
-
                 new UniversalSingularity(
                         "rubber",
-                        Collections.singletonList(
+                        Arrays.asList(
                                 new UniversalSingularityWrapper(
                                         "rubber",
                                         "blockUnstable",
                                         66,
-                                        0x646464,
-                                        0x464646,
+                                        0x000000,
+                                        0x000000,
+                                        false),
+                                new UniversalSingularityWrapper(
+                                        "styrenebutadiene",
+                                        "blockUnstable",
+                                        66,
+                                        0x211A18,
+                                        0x211A18,
+                                        false),
+                                new UniversalSingularityWrapper(
+                                        "silicone",
+                                        "blockUnstable",
+                                        66,
+                                        0XDCDCDC,
+                                        0XDCDCDC,
+                                        false),
+                                new UniversalSingularityWrapper(
+                                        "polyphenylenesulfide",
+                                        "blockUnstable",
+                                        66,
+                                        0XBEB4AA,
+                                        0XBEB4AA,
+                                        false),
+                                new UniversalSingularityWrapper(
+                                        "polyvinylchloride",
+                                        "blockUnstable",
+                                        66,
+                                        0XD7E6E6,
+                                        0XD7E6E6,
                                         false))));
 
         /*
