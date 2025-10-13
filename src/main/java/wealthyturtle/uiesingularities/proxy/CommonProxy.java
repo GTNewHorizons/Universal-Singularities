@@ -612,15 +612,44 @@ public class CommonProxy {
                                         0x926AC3,
                                         false))),
 
+                // Tinkers' Construct Singularities
                 new UniversalSingularity(
                         "rubber",
-                        Collections.singletonList(
+                        Arrays.asList(
                                 new UniversalSingularityWrapper(
                                         "rubber",
-                                        "blockUnstable",
-                                        66,
-                                        0x646464,
-                                        0x464646,
+                                        "blockAluminumBrass",
+                                        1824,
+                                        0x000000,
+                                        0x000000,
+                                        false),
+                                new UniversalSingularityWrapper(
+                                        "styrenebutadiene",
+                                        "blockAlumite",
+                                        229,
+                                        0x211A18,
+                                        0x211A18,
+                                        false),
+                                new UniversalSingularityWrapper(
+                                        "silicone",
+                                        "blockArdite",
+                                        304,
+                                        0xDCDCDC,
+                                        0xDCDCDC,
+                                        false),
+                                new UniversalSingularityWrapper(
+                                        "polyphenylene",
+                                        "blockCobalt",
+                                        1824,
+                                        0xBEB4AA,
+                                        0xBEB4AA,
+                                        false),
+                                new UniversalSingularityWrapper(
+                                        "pvc",
+                                        "blockEnderPearl",
+                                        608,
+                                        0xD7E6E6,
+                                        0xD7E6E6,
                                         false))));
 
         /*
