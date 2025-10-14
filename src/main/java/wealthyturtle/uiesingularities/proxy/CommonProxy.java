@@ -620,8 +620,8 @@ public class CommonProxy {
                                         "rubber",
                                         "blockAluminumBrass",
                                         1824,
-                                        0x000000,
-                                        0x000000,
+                                        0x474747,
+                                        0x171717,
                                         false),
                                 new UniversalSingularityWrapper(
                                         "styrenebutadiene",
