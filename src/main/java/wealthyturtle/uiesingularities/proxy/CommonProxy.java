@@ -613,19 +613,20 @@ public class CommonProxy {
                                         false))),
 
                 // Rubber Singularities
+                //the blocks on the recipe don't matter; they get overwritten in Coremod
                 new UniversalSingularity(
                         "rubber",
                         Arrays.asList(
                                 new UniversalSingularityWrapper(
                                         "rubber",
-                                        "blockAluminumBrass",
+                                        "blockArdite",
                                         1824,
                                         0x474747,
                                         0x171717,
                                         false),
                                 new UniversalSingularityWrapper(
                                         "styrenebutadiene",
-                                        "blockAlumite",
+                                        "blockArdite",
                                         229,
                                         0x211A18,
                                         0x211A18,
@@ -639,14 +640,14 @@ public class CommonProxy {
                                         false),
                                 new UniversalSingularityWrapper(
                                         "polyphenylene",
-                                        "blockCobalt",
+                                        "blockArdite",
                                         1824,
                                         0xBEB4AA,
                                         0xBEB4AA,
                                         false),
                                 new UniversalSingularityWrapper(
                                         "pvc",
-                                        "blockEnderPearl",
+                                        "blockArdite",
                                         608,
                                         0xD7E6E6,
                                         0xD7E6E6,
