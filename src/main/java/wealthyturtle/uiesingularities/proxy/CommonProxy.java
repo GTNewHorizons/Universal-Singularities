@@ -613,7 +613,7 @@ public class CommonProxy {
                                         false))),
 
                 // Rubber Singularities
-                //the blocks on the recipe don't matter; they get overwritten in Core mod
+                // the blocks on the recipe don't matter; they get overwritten in Core mod
                 new UniversalSingularity(
                         "rubber",
                         Arrays.asList(
