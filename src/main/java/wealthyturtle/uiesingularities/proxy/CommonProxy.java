@@ -623,35 +623,36 @@ public class CommonProxy {
                                         1824,
                                         0x474747,
                                         0x171717,
-                                        false),
+                                        true),
                                 new UniversalSingularityWrapper(
                                         "styrenebutadiene",
                                         "blockArdite",
                                         229,
                                         0x211A18,
                                         0x211A18,
-                                        false),
+                                        true),
                                 new UniversalSingularityWrapper(
                                         "silicone",
                                         "blockArdite",
                                         304,
                                         0xDCDCDC,
                                         0xDCDCDC,
-                                        false),
+                                        true),
                                 new UniversalSingularityWrapper(
                                         "polyphenylene",
                                         "blockArdite",
                                         1824,
                                         0xBEB4AA,
                                         0xBEB4AA,
-                                        false),
+                                        true),
+                                new UniversalSingularityWrapper("pvc", "blockArdite", 608, 0xD7E6E6, 0xD7E6E6, false),
                                 new UniversalSingularityWrapper(
-                                        "pvc",
+                                        "elastic",
                                         "blockArdite",
                                         608,
-                                        0xD7E6E6,
-                                        0xD7E6E6,
-                                        false))));
+                                        0x6B6866,
+                                        0x6B6866,
+                                        true))));
 
         /*
          * Removed new UniversalSingularityWrapper("salt", "blockSalt", 87, 0xEFEFEF, 0xDDE7E8), new
