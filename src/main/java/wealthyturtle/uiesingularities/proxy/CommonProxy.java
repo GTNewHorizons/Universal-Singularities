@@ -645,7 +645,7 @@ public class CommonProxy {
                                         0xBEB4AA,
                                         0xBEB4AA,
                                         true),
-                                new UniversalSingularityWrapper("pvc", "blockArdite", 608, 0xD7E6E6, 0xD7E6E6, false),
+                                new UniversalSingularityWrapper("pvc", "blockArdite", 608, 0xD7E6E6, 0xD7E6E6, true),
                                 new UniversalSingularityWrapper(
                                         "elastic",
                                         "blockArdite",
