@@ -612,16 +612,47 @@ public class CommonProxy {
                                         0x926AC3,
                                         false))),
 
+                // Rubber Singularities
+                // the blocks on the recipe don't matter; they get overwritten in Core mod
                 new UniversalSingularity(
                         "rubber",
-                        Collections.singletonList(
+                        Arrays.asList(
                                 new UniversalSingularityWrapper(
                                         "rubber",
-                                        "blockUnstable",
-                                        66,
-                                        0x646464,
-                                        0x464646,
-                                        false))));
+                                        "blockArdite",
+                                        1824,
+                                        0x474747,
+                                        0x171717,
+                                        true),
+                                new UniversalSingularityWrapper(
+                                        "styrenebutadiene",
+                                        "blockArdite",
+                                        229,
+                                        0x211A18,
+                                        0x211A18,
+                                        true),
+                                new UniversalSingularityWrapper(
+                                        "silicone",
+                                        "blockArdite",
+                                        304,
+                                        0xDCDCDC,
+                                        0xDCDCDC,
+                                        true),
+                                new UniversalSingularityWrapper(
+                                        "polyphenylene",
+                                        "blockArdite",
+                                        1824,
+                                        0xBEB4AA,
+                                        0xBEB4AA,
+                                        true),
+                                new UniversalSingularityWrapper("pvc", "blockArdite", 608, 0xD7E6E6, 0xD7E6E6, true),
+                                new UniversalSingularityWrapper(
+                                        "elastic",
+                                        "blockArdite",
+                                        608,
+                                        0x6B6866,
+                                        0x6B6866,
+                                        true))));
 
         /*
          * Removed new UniversalSingularityWrapper("salt", "blockSalt", 87, 0xEFEFEF, 0xDDE7E8), new
