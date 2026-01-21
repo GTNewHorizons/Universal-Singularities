@@ -66,7 +66,14 @@ public class CommonProxy {
                                         729,
                                         0x4AEDD1,
                                         0x30DBBD,
-                                        false))),
+                                        false),
+                                new UniversalSingularityWrapper(
+                                        "water",
+                                        "blockDiamond",
+                                        50,
+                                        0x0000FF,
+                                        0x1E90FF,
+                                        true))),
                 // General (Not Mod Specific)
                 new UniversalSingularity(
                         "general",
