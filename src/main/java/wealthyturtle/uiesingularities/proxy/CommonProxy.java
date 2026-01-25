@@ -269,8 +269,8 @@ public class CommonProxy {
                                         "roseGold",
                                         "blockRoseGold",
                                         1824,
-                                        0xFFE61E,
-                                        0xDEC921,
+                                        0xDEA193,
+                                        0xDA9585,
                                         false))),
 
                 // Big Reactors Singularities
