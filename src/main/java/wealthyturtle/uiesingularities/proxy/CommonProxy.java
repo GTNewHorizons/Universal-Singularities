@@ -662,7 +662,7 @@ public class CommonProxy {
                                         true))),
                 new UniversalSingularity(
                         "toxic",
-                        Collections.singletonList(
+                        Arrays.asList(
                                 new UniversalSingularityWrapper(
                                         "contaminated",
                                         "blockArdite",
