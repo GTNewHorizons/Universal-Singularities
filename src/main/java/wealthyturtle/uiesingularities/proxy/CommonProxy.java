@@ -659,6 +659,16 @@ public class CommonProxy {
                                         608,
                                         0x6B6866,
                                         0x6B6866,
+                                        true))),
+                new UniversalSingularity(
+                        "toxic",
+                        Collections.singletonList(
+                                new UniversalSingularityWrapper(
+                                        "contaminated",
+                                        "blockArdite",
+                                        633,
+                                        0x687351,
+                                        0x506b4c,
                                         true))));
 
         /*
