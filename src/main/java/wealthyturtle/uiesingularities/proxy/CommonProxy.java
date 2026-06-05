@@ -660,6 +660,7 @@ public class CommonProxy {
                                         0x6B6866,
                                         0x6B6866,
                                         true))),
+                // Toxic Singularity
                 new UniversalSingularity(
                         "toxic",
                         Arrays.asList(
@@ -669,7 +670,37 @@ public class CommonProxy {
                                         633,
                                         0x687351,
                                         0x506b4c,
-                                        true))));
+                                        true))),
+                // Gregtech Circuit Singularities
+                new UniversalSingularity(
+                        "circuit",
+                        Arrays.asList(
+                                new UniversalSingularityWrapper("ulv", "blockArdite", 102, 0xFFFFFF, 0xE7E7E7, true),
+                                new UniversalSingularityWrapper("lv", "blockArdite", 506, 0xAAAAAA, 0x969696, true),
+                                new UniversalSingularityWrapper("mv", "blockArdite", 182, 0xFFAA00, 0xD18B00, true),
+                                new UniversalSingularityWrapper("hv", "blockArdite", 125, 0xFFFF55, 0xFFFF2E, true),
+                                new UniversalSingularityWrapper("ev", "blockArdite", 124, 0x555555, 0x3B3B3B, true),
+                                new UniversalSingularityWrapper("iv", "blockArdite", 120, 0x55FF55, 0x2EFF2E, true),
+                                new UniversalSingularityWrapper("luv", "blockArdite", 592, 0xFF55FF, 0xFF2EFF, true),
+                                new UniversalSingularityWrapper("zpm", "blockArdite", 621, 0x55FFFF, 0x2EFFFF, true),
+                                new UniversalSingularityWrapper("uv", "blockArdite", 323, 0x00AA00, 0x007500, true),
+                                new UniversalSingularityWrapper("uhv", "blockArdite", 641, 0xAA0000, 0x750000, true))),
+                // meta 10 and 11 have custom effects, split to avoid these
+                new UniversalSingularity(
+                        "circuit2",
+                        Arrays.asList(
+                                new UniversalSingularityWrapper("uev", "blockArdite", 412, 0xAA00AA, 0x750075, true),
+                                new UniversalSingularityWrapper("uiv", "blockArdite", 254, 0x0000AA, 0x000075, true),
+                                new UniversalSingularityWrapper("umv", "blockArdite", 296, 0xFF5555, 0xFF2E2E, true),
+                                new UniversalSingularityWrapper("uxv", "blockArdite", 583, 0xD100D1, 0xD10000, true),
+                                new UniversalSingularityWrapper("max", "blockArdite", 698, 0xFFFFFF, 0xFFFF55, true),
+                                new UniversalSingularityWrapper(
+                                        "erv",
+                                        "blockArdite",
+                                        813,
+                                        0x181818,
+                                        0x555555,
+                                        false))));
 
         /*
          * Removed new UniversalSingularityWrapper("salt", "blockSalt", 87, 0xEFEFEF, 0xDDE7E8), new
