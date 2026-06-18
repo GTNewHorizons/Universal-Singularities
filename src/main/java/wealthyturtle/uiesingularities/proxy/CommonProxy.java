@@ -694,13 +694,14 @@ public class CommonProxy {
                                 new UniversalSingularityWrapper("umv", "blockArdite", 296, 0xFF5555, 0xFF2E2E, true),
                                 new UniversalSingularityWrapper("uxv", "blockArdite", 583, 0xD100D1, 0xD10000, true),
                                 new UniversalSingularityWrapper("max", "blockArdite", 698, 0xFFFFFF, 0xFFFF55, true),
+                                new UniversalSingularityWrapper("erv", "blockArdite", 813, 0x181818, 0x555555, false),
                                 new UniversalSingularityWrapper(
-                                        "erv",
+                                        "computronium",
                                         "blockArdite",
-                                        813,
-                                        0x181818,
-                                        0x555555,
-                                        false))));
+                                        21,
+                                        0x523a51,
+                                        0x030303,
+                                        true))));
 
         /*
          * Removed new UniversalSingularityWrapper("salt", "blockSalt", 87, 0xEFEFEF, 0xDDE7E8), new
