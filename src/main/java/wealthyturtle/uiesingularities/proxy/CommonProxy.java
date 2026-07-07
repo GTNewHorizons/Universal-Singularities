@@ -440,6 +440,17 @@ public class CommonProxy {
                                         0xC5C5C5,
                                         0xB1B1B1,
                                         false))),
+                // Utilities in Excess Singularities
+                new UniversalSingularity(
+                        "utilitiesinexcess",
+                        Arrays.asList(
+                                new UniversalSingularityWrapper(
+                                        "inverted",
+                                        "blockInverted",
+                                        66,
+                                        0xAFC1C3,
+                                        0x768383,
+                                        false))),
                 // Mekanism Singularities
                 new UniversalSingularity(
                         "mekanism",
